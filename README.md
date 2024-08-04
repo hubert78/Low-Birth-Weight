@@ -1,17 +1,17 @@
 # Predicting Low Birth Weight Among Pregnant Women
 # Overview
 This is my exploration of a dataset on the risk factors associated with pregnant women delivering babies with low birth weight. Studies show that neonates born with low birth weight suffer from many health complications such as respiratory distress, and admission to the neonatal intensive care unit (NICU). These neonates also suffer a high chance of neonatal mortality than children born of normal weight. The goals of the project were to:
-•	Perform statistical analysis on the data to identify the risk factors that are significantly associated with delivering children with low birth weight. 
-•	Build a machine learning classification algorithm to predict the likelihood that a woman would deliver a baby of low birth weight. 
+* Perform statistical analysis on the data to identify the risk factors that are significantly associated with delivering children with low birth weight. 
+* Build a machine learning classification algorithm to predict the likelihood that a woman would deliver a baby of low birth weight. 
 
 # Data
 This dataset was acquired from the research study of a graduate student. I love the topic and would have normally analyzed such data using SPSS and Excel. This was a new step for me, and I was very excited to explore this entirely in Python. 
 
  # Project Division
 This project is divided into three separate Jupiter notebooks. Each notebook is designed to tackle a different challenge in the data analysis process. They include:
-•	Part 1: Data Cleaning and Feature Engineering
-•	Part 2: Statistical Analysis
-•	Part 3: Machine Learning Model Prediction 
+* Part 1: Data Cleaning and Feature Engineering
+* Part 2: Statistical Analysis
+* Part 3: Machine Learning Model Prediction 
 
 
 
@@ -22,10 +22,10 @@ With the increasing adoption of AI systems in healthcare to analyze the multitud
 
 # Solving the problem
 ### Statistical Analysis
-•	Performed a crosstab and chi-square contingency analysis to determine the relationship between categorical features of the data and low birth weight. 
-•	Built a function to dynamically build a combined distribution and contingency table to ease the visualization and interpretation of results. 
-•	Performed and built a combined table of an independent t-test analysis between the numerical features and low birth weight
-•	Explore the data further to see other risk factors associated with stillbirth or neonatal mortality 
+* Performed a crosstab and chi-square contingency analysis to determine the relationship between categorical features of the data and low birth weight. 
+* Built a function to dynamically build a combined distribution and contingency table to ease the visualization and interpretation of results. 
+* Performed and built a combined table of an independent t-test analysis between the numerical features and low birth weight
+* Explore the data further to see other risk factors associated with stillbirth or neonatal mortality 
 
 ### Machine Learning Classification Model 
 Built and compared the sensitivity and specificity of two classification algorithms: Logistics Regression and Support Vector Machine. Although accuracy for the two models was generally between 80 – 82%, SVM performed better in terms of its sensitivity (41.57%) and specificity (91.82%). As a classification algorithm for hospital diagnosis, the model’s high specificity could help doctors quickly determine which women have a lesser risk of delivering an LBW baby. This could therefore allow doctors and nurses to more adequately focus their attention on women who most need their help.

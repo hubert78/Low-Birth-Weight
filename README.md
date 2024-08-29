@@ -2,7 +2,10 @@
 # Overview
 This is my exploration of a dataset on the risk factors associated with pregnant women delivering babies with low birth weight. Studies show that neonates born with low birth weight suffer from many health complications such as respiratory distress, and admission to the neonatal intensive care unit (NICU). These neonates also suffer a high chance of neonatal mortality than children born of normal weight. The goals of the project were to:
 * Perform statistical analysis on the data to identify the risk factors that are significantly associated with delivering children with low birth weight. 
-* Build a machine learning classification algorithm to predict the likelihood that a woman would deliver a baby of low birth weight. 
+* Build a machine learning classification algorithm to predict the likelihood that a woman would deliver a baby of low birth weight.
+
+### WEB-APPLICATION
+A web application for others to access this project can be [found here](https://lbw-predictor.streamlit.app/)
 
 # Data
 This dataset was acquired from the research study of a graduate student. I love the topic and would have normally analyzed such data using SPSS and Excel. This was a new step for me, and I was very excited to explore this entirely in Python. 
